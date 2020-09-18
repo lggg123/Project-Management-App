@@ -1,0 +1,13 @@
+<h1>Editing Project</h1>
+
+<%= link_to 'Back', @project, class: 'btn btn-secondary mb-3' %>
+<div class="card">
+  <div class="card-body">
+    <h2 class='card-title d-flex justify-content-between mb-4'>
+      <!-- d-flex basically puts the Projects on the left and the link for new project on the right-->
+      <span>Editing project</span>
+    </h2>   
+
+    <%= render 'form', project: @project %>
+    </div>
+    </div>
