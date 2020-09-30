@@ -1,5 +1,9 @@
 class Project < ApplicationRecord
+<<<<<<< HEAD
   has_many :tasks
+=======
+  has_many :tasks, dependent: :destroy
+>>>>>>> 562bd3a... fixed delete function and works fully
   belongs_to :user
 
   def badge_color 
